@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pet Salon</title>
+</head>
+
+<body>
+
+    <header class="site-in">
+        <h1>Fashion Pets</h1>
+        <div class="menu">
+            <nav>
+                <a href="index.htm">Home</a>
+                <a href="About.htm">About</a>
+                <a href="register.htm">Register</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main class="main-in">
+
+        <div class="img-section">
+            <div class="info">
+
+            </div>
+            <img class="img-logo-register" src="dogcartoon.jpg" alt="pets-cartoon">
+        </div>
+        
+        <div class="register-form">
+            <form action="#">
+                <p>Name: <input type="text" id="name" placeholder="Pet's Name"></p>
+                <p>Age: <input type="text" name="age" id="age" placeholder="Pet's Age"></p>
+                <p>Type: <input type="text" id="type" placeholder="Pet's Type"></p>
+                <p>Gender: <input type="text" id="gender" placeholder="M/F"></p>
+                <p>Breed: <input type="text" id="breed"></p>
+                <p>Service: <select name="service" id="service">
+                    <option value="" disabled selected>---Select a service---</option>
+                    <option value="Shower">Shower</option>
+                    <option value="Hair Cut">Hair Cut</option>
+                    <option value="Nail Clipping">Nail Clipping</option>
+                    <option value="Full Service">Full Services</option>
+
+                </select></p>
+                <p>Owner's Name: <input type="text" id="ownerName"></p>
+                <p>Contact Phone: <input type="text" id="contactPhone"></p>
+            </form>
+            <input class="btn" type="submit" value="Register" onclick="register();"></div>
+           <input type="text" id="inputSearch"> <button class="btn" onclick="search();">search</button></div>
+
+
+    </main>
+
+    
+      <section class="list-pets">
+          <h2>Registered Pets</h2>
+          <table class='table' id="petTable">
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Type</th>
+                <th>Breed</th>
+                <th>Service</th>
+                <th>Owner's Name</th>
+                <th>Contact Phone</th>
+            </thead>
+            <tbody id="listBody">
+
+
+            </tbody>
+
+          </table>
+      </section>
+
+    <footer class="footer-in">
+        <div class="menu-footer">
+            <nav>
+                <a href="index.htm">Home</a>
+                <a href="About.htm">About</a>
+                <a href="register.htm">Register</a>
+            </nav>
+
+        </div>
+        <div class="info">
+
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

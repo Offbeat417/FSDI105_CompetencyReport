@@ -1,0 +1,146 @@
+body{
+    font-family: 'Mansalva', cursive;
+    Display:block;
+
+
+}
+
+.site-in{
+    display:flex;
+    justify-content: space-between;
+    background:rgb(0, 68, 136);
+    height:20vh;
+    color:white;
+    font-family: 'Mansalva', cursive;
+}
+
+h1{
+    margin:20px 40px;
+}
+
+.menu nav a{
+    color:white;
+    display: inline-block;
+    background-color: #8b9696;
+    margin:25px;
+    font-size:20px;
+    padding:20px;
+    font-style: none;
+    text-decoration: none;
+    border-radius:5px;
+
+}
+
+.main-in{
+    height: 60vh;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-logo{
+    width: 300px;
+}
+
+.img-logo-register {
+    width: 200px;
+}
+
+.list-pets{
+    width:80%;
+    text-align: center;
+    margin:auto;
+}
+
+h2{
+    background: #a7a7a7;
+    color:black;
+    display: block;
+    padding:10px;
+    width:80%;
+    text-align:center;
+}
+
+.footer-in{
+    background:rgb(0, 68, 136);
+    color:white;
+    font-size:14px;
+    height: 20vh;
+    display: flex; 
+    flex-direction: column;
+
+}
+
+.menu-footer nav a{
+    font-size:14px;
+    color:white;
+    text-decoration: none;
+    justify-content: center;
+    margin: 20px 40px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-in .info{
+    justify-content: center;
+}
+
+.register-form{
+    margin-left:0px;
+
+}
+
+input[type="text"],select{
+    width:400px;
+    padding:3px;
+    border-radius:5px;
+    border:1px solid black;
+}
+
+.btn{
+    background-color: #a7a7a7;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    font-size:15px;
+    font-family: 'Mansalva',
+    cursive;
+    text-align:right;
+}
+
+.list-pets{
+    text-align:center;
+    border:1px solid black;
+    width:100%;
+}
+
+.table{
+    
+    color:blue;
+    font-size:15;
+    padding: 10px;
+    width:100%;
+    
+
+}
+
+.inputSearch{
+    background:red;
+}
+
+.listBody{
+        background-color: #a7a7a7;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: 'Mansalva',
+            cursive;
+        text-align: right;
+}
+
+.selected{
+    background:red;
+}
